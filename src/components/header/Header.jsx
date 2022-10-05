@@ -11,9 +11,14 @@ const Header = () => {
               <div className="header-links">
                 <ul>
                   <li>
-                    <i className="fas fa-phone"></i>Call for any information:{" "}
-                    <a href="tel:+880758325669">+880 1758 32 56 69</a> and{" "}
-                    <a href="tel:+8801627429558">+880 1627 42 95 58</a>
+                    <i className="fas fa-phone"></i>যেকোনো তথ্যের জন্য কল করুন:{" "}
+                    <a className="text-dark" href="tel:+880758325669">
+                      +880 1758 32 56 69
+                    </a>{" "}
+                    ও{" "}
+                    <a className="text-dark" href="tel:+8801627429558">
+                      +880 1627 42 95 58
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -101,7 +106,7 @@ const Header = () => {
                         <i className="far fa-search"></i>
                       </button>
                       <a href="#" className="vs-btn d-none d-xl-block">
-                        Buy Tickets
+                        রেজিস্ট্রেশন করুন
                       </a>{" "}
                       <button
                         type="button"

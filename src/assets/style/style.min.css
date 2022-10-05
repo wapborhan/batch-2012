@@ -4695,7 +4695,7 @@ a.text-white:hover {
   position: relative;
   font-weight: 400;
   margin-right: 30px;
-  font-family: var(--body-font);
+  /* font-family: var(--body-font); */
 }
 .header-links ul li > i {
   margin-right: 10px;
@@ -5075,7 +5075,7 @@ a.text-white:hover {
   border: 3px solid var(--theme-color);
   border-radius: 20px;
   background-color: var(--white-color);
-  padding: 41px 0;
+  padding: 30px 0;
   -webkit-transform: translateY(-37px);
   transform: translateY(-37px);
   -webkit-box-shadow: 0 11px 43px 0 rgba(240, 64, 27, 0.1);
