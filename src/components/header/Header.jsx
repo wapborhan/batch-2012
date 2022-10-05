@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,7 +12,8 @@ const Header = () => {
                 <ul>
                   <li>
                     <i className="fas fa-phone"></i>Call for any information:{" "}
-                    <a href="tel:+8801903333110">+880 190 33 33 110</a>
+                    <a href="tel:+880758325669">+880 1758 32 56 69</a> and{" "}
+                    <a href="tel:+8801627429558">+880 1627 42 95 58</a>
                   </li>
                 </ul>
               </div>
@@ -65,10 +67,10 @@ const Header = () => {
                     <nav className="main-menu menu-style1 d-none d-lg-inline-block">
                       <ul>
                         <li className="menu-item-has-children">
-                          <a href="#">Home</a>
+                          <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                          <a href="#">About</a>
+                          <NavLink to="/about">About</NavLink>
                         </li>
                         <li className="menu-item-has-children">
                           <a href="#">Event</a>
