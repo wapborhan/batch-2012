@@ -91,10 +91,12 @@ const Footer = () => {
       </div> */}
       <div className="footer-copyright">
         <div className="container">
-          <p className="copyright">
-            Copyright © 2022 <a href="index.html">Reunion 2024</a>. All Rights
-            Reserved By <a href="https://www.wapborhan.com/">Borhan Uddin</a>
-          </p>
+          <div className="copyright text-dark">
+            সাইট ডিজাইন করেছেন{" "}
+            <a target="_BLANK" href="https://www.wapborhan.com/">
+              বোরহান উদ্দিন
+            </a>
+          </div>
         </div>
       </div>
     </footer>
