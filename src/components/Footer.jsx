@@ -1,103 +1,111 @@
 import React from "react";
-import FootBG from "../assets/img/bg/footer_bg_1.jpg";
+import FootBG from "../assets/img/bg/bg-footer-3.png";
 
 const Footer = () => {
   return (
-    <footer
-      className="footer-wrapper footer-layout4"
-      style={{
-        backgroundImage: `url("${FootBG}")`,
-      }}
-    >
-      {/* <div className="widget-area">
+    <footer className="footer-wrapper footer-layout2">
+      <div
+        className="widget-area"
+        data-bg-src="assets/img/bg/bg-footer.png"
+        style={{
+          backgroundImage: `url("${FootBG}")`,
+        }}
+      >
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-xl-auto col-md-6">
+            <div className="col-lg-auto col-md-6 order-3 order-lg-0">
+              <div className="widget footer-widget widget_nav_menu">
+                <h4 className="widget_title">Contact</h4>
+                <ul className="menu">
+                  <li>
+                    <a href="mailto:info@evona.com">info@evona.com</a>
+                  </li>
+                  <li>
+                    <a href="https://www.google.com/maps">
+                      259 Media Hall, NYC 12503
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+2152351563">+(215) 235 1563</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-auto col-md-12">
               <div className="widget footer-widget">
                 <div className="vs-widget-about">
                   <div className="about-logo">
                     <a href="index.html">
-                      <img src="assets/img/logo-white.png" alt="Evona" />
+                      <img src="assets/img/logo-white2.png" alt="Evona" />
                     </a>
                   </div>
                   <p className="about-text">
-                    Lorem ipsum dolor amet consectetur adipiscing elit ut
-                    aliquam purus sit amet magna elemen facilisis. Enim praesent
-                    elementum facilisis.
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua ipsum
+                    suspendisse
                   </p>
-                  <div className="vs-social">
-                    <a href="https://facebook.com/">
-                      <i className="fab fa-facebook-f"></i>
-                    </a>{" "}
-                    <a href="https://twitter.com/">
-                      <i className="fab fa-twitter"></i>
-                    </a>{" "}
-                    <a href="https://instagram.com/">
-                      <i className="fab fa-instagram"></i>
-                    </a>{" "}
-                    <a href="https://linkedin.com/">
-                      <i className="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
+                  <a href="shop.html" className="vs-btn btn-white">
+                    Buy Ticket
+                  </a>
                 </div>
               </div>
             </div>
-            <div className="col-xl-auto col-md-6">
+            <div className="col-lg-auto col-md-6">
               <div className="widget footer-widget widget_nav_menu">
-                <h4 className="widget_title">Our Services</h4>
+                <h4 className="widget_title">Quick Links</h4>
                 <ul className="menu">
                   <li>
-                    <a href="contact.html">Log In</a>
+                    <a href="index.html">Sitemap</a>
                   </li>
                   <li>
-                    <a href="contact.html">Register</a>
+                    <a href="contact.html">Help Center</a>
                   </li>
                   <li>
-                    <a href="about.html">About Evona</a>
+                    <a href="contact.html">Return</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Support</a>
-                  </li>
-                  <li>
-                    <a href="shop.html">How It Works</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-auto col-md-6">
-              <div className="widget footer-widget widget_nav_menu">
-                <h4 className="widget_title">Quick links</h4>
-                <ul className="menu">
-                  <li>
-                    <a href="contact.html">Sponsors</a>
-                  </li>
-                  <li>
-                    <a href="speaker.html">Speakers</a>
-                  </li>
-                  <li>
-                    <a href="shop.html">Buy Ticket</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Schedule</a>
-                  </li>
-                  <li>
-                    <a href="gallery.html">Event Gallery</a>
+                    <a href="shop.html">Shipping</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="footer-copyright">
         <div className="container">
-          <div className="copyright text-dark">
-            সাইট ডিজাইন করেছেন{" "}
-            <a target="_BLANK" href="https://www.wapborhan.com/">
-              বোরহান উদ্দিন
-            </a>
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <p className="copyright">
+                সাইট ডিজাইন করেছেন{" "}
+                <a target="_BLANK" href="https://www.wapborhan.com/">
+                  বোরহান উদ্দিন
+                </a>
+              </p>
+            </div>
+            <div className="col-lg-6 text-end d-none d-lg-block">
+              <div className="footer-bottom-menu">
+                <ul>
+                  <li>
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li>
+                    <a href="shop.html">Tickets</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Venue</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
+        <a href="#" className="scrollToTop scroll-btn style2">
+          <i className="far fa-chevron-up"></i>
+        </a>
       </div>
     </footer>
   );

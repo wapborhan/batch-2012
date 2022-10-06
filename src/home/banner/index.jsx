@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HeroBG from "../../assets/img/bg/hero_bg_1_1.jpg";
 import title_shape from "../../assets/img/shape/title_shape.png";
+import Curved_B from "../../assets/img/shape/curved-shape-bottom.png";
 
 const Index = () => {
   const [countdownDate, setCountdownDate] = useState(
@@ -150,6 +151,9 @@ const Index = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div class="section-after">
+        <img src={Curved_B} alt="shape" />
       </div>
     </div>
   );

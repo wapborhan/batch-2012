@@ -1,8 +1,8 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
-@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
-@import url('https://fonts.maateen.me/charu-chandan-hard-stroke/font.css');
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.maateen.me/solaiman-lipi/font.css");
+@import url("https://fonts.maateen.me/charu-chandan-3d/font.css");
+@import url("https://fonts.maateen.me/charu-chandan-hard-stroke/font.css");
 :root {
   --theme-color: #f0401b;
   --theme-color2: #ff6508;
@@ -19,8 +19,8 @@
   --error-color: #dc3545;
   --blue-color: #786acf;
   --border-color: rgb(239, 239, 239);
-  --title-font: "Inter", sans-serif;
-  --title-font2: "Caveat", cursive;
+  /* --title-font: "Inter", sans-serif; */
+  /* --title-font2: "Caveat", cursive; */
   --body-font: "Roboto", sans-serif;
   --para-font: "Roboto", sans-serif;
   --icon-font: "Font Awesome 6 Pro";
@@ -46,7 +46,7 @@ html {
   scroll-behavior: auto !important;
 }
 body {
-  font-family: var(--body-font),'SolaimanLipi';
+  font-family: var(--body-font), "SolaimanLipi";
   font-size: 16px;
   font-weight: 400;
   color: var(--body-color);
@@ -161,11 +161,14 @@ p:empty,
 span.ajax-loader:empty {
   display: none;
 }
+.text-justify {
+  text-align: justify;
+}
 p {
-  font-family: var(--para-font);
+  /* font-family: var(--para-font); */
   margin: 0 0 18px 0;
   color: var(--body-color);
-  line-height: 1.556;
+  line-height: 2;
   font-size: 16px;
 }
 span {
@@ -2072,7 +2075,7 @@ textarea.form-control.is-invalid {
   position: relative;
   margin-top: -0.35em;
   margin-bottom: 20px;
-font-family: 'CharuChandan3D', sans-serif;
+  font-family: "CharuChandan3D", sans-serif;
 }
 .sub-title2 .title-shape {
   position: absolute;
@@ -6625,8 +6628,8 @@ ul.comment-list
   left: 0;
   width: 100%;
   height: 100%;
-background-position: top center;
-background-size: cover;
+  background-position: top center;
+  background-size: cover;
 }
 .vs-hero-bg img {
   position: absolute;
@@ -6882,7 +6885,7 @@ background-size: cover;
 .hero-content-style4 {
   position: relative;
   z-index: 5;
-  padding: 20px 15px 270px 15px;
+  padding: 20px 15px 110px 15px;
   text-align: center;
 }
 .hero-content-style4 .sub-title2 {
@@ -6895,15 +6898,15 @@ background-size: cover;
 }
 .hero-content-style4 .hero-title {
   font-size: 60px;
- font-family: 'Hind Siliguri', sans-serif;
- 
-/* font-family: 'CharuChandan3D', sans-serif; */
+  font-family: "Hind Siliguri", sans-serif;
+
+  /* font-family: 'CharuChandan3D', sans-serif; */
   line-height: 1;
   font-weight: 800;
   margin-bottom: 20px;
   letter-spacing: -0.04em;
   text-transform: capitalize;
-margin-top: 25px;
+  margin-top: 25px;
 }
 .hero-content-style4 .hero-title:nth-of-type(2) {
   font-size: 72px;
@@ -7171,6 +7174,7 @@ margin-top: 25px;
   }
   .hero-content-style4 .hero-title {
     font-size: 40px;
+line-height: 1.5;
   }
   .hero-content-style4 .hero-title:nth-of-type(2) {
     font-size: 32px;
@@ -10134,7 +10138,7 @@ span.select2-selection.select2-selection--single:focus {
   padding: 56px 52px;
   position: absolute;
   text-align: center;
-  left: -108px;
+  /* left: -108px; */
   bottom: -40px;
   border-radius: 20px;
 }
@@ -10152,7 +10156,7 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 1500px) {
   .speaker-count {
     padding: 36px 32px;
-    left: -30px;
+    right: -70px;
     bottom: -30px;
   }
   .speaker-count .counter-number {
@@ -10183,7 +10187,7 @@ span.select2-selection.select2-selection--single:focus {
   }
   .about-img {
     margin-bottom: 40px;
-  }
+  }.speaker-count.speaker-count
   .info-media {
     max-width: 300px;
   }
@@ -10193,7 +10197,7 @@ span.select2-selection.select2-selection--single:focus {
     font-size: 22px;
   }
   .speaker-count {
-    left: 0;
+    right: 0;
   }
   .speaker-count .counter-number {
     font-size: 42px;
