@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
@@ -70,26 +70,7 @@ const Header = () => {
                 <div className="row align-items-center justify-content-between">
                   <div className="col-auto">
                     <nav className="main-menu menu-style1 d-none d-lg-inline-block">
-                      <ul>
-                        <li className="menu-item-has-children">
-                          <NavLink to="/">Home</NavLink>
-                        </li>
-                        <li>
-                          <NavLink to="/about">About</NavLink>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <a href="#">Event</a>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <a href="#">Pages</a>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <a href="#">Blog</a>
-                        </li>
-                        <li>
-                          <a href="#">Contact</a>
-                        </li>
-                      </ul>
+                      <Nav />
                     </nav>
                   </div>
                   <div className="col d-block d-lg-none">

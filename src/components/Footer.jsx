@@ -1,10 +1,11 @@
 import React from "react";
 import FootBG from "../assets/img/bg/bg-footer-3.png";
+import Nav from "./header/Nav";
 
 const Footer = () => {
   return (
     <footer className="footer-wrapper footer-layout2">
-      <div
+      {/* <div
         className="widget-area"
         data-bg-src="assets/img/bg/bg-footer.png"
         style={{
@@ -13,24 +14,6 @@ const Footer = () => {
       >
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-lg-auto col-md-6 order-3 order-lg-0">
-              <div className="widget footer-widget widget_nav_menu">
-                <h4 className="widget_title">Contact</h4>
-                <ul className="menu">
-                  <li>
-                    <a href="mailto:info@evona.com">info@evona.com</a>
-                  </li>
-                  <li>
-                    <a href="https://www.google.com/maps">
-                      259 Media Hall, NYC 12503
-                    </a>
-                  </li>
-                  <li>
-                    <a href="tel:+2152351563">+(215) 235 1563</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
             <div className="col-lg-auto col-md-12">
               <div className="widget footer-widget">
                 <div className="vs-widget-about">
@@ -50,28 +33,27 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-auto col-md-6">
+            <div className="col-lg-auto col-md-6 order-3 order-lg-0">
               <div className="widget footer-widget widget_nav_menu">
-                <h4 className="widget_title">Quick Links</h4>
+                <h4 className="widget_title">Contact</h4>
                 <ul className="menu">
                   <li>
-                    <a href="index.html">Sitemap</a>
+                    <a href="mailto:info@evona.com">info@evona.com</a>
                   </li>
                   <li>
-                    <a href="contact.html">Help Center</a>
+                    <a href="https://www.google.com/maps">
+                      259 Media Hall, NYC 12503
+                    </a>
                   </li>
                   <li>
-                    <a href="contact.html">Return</a>
-                  </li>
-                  <li>
-                    <a href="shop.html">Shipping</a>
+                    <a href="tel:+2152351563">+(215) 235 1563</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="footer-copyright">
         <div className="container">
           <div className="row align-items-center">
@@ -85,20 +67,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-6 text-end d-none d-lg-block">
               <div className="footer-bottom-menu">
-                <ul>
-                  <li>
-                    <a href="blog.html">Blog</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact</a>
-                  </li>
-                  <li>
-                    <a href="shop.html">Tickets</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Venue</a>
-                  </li>
-                </ul>
+                <Nav />
               </div>
             </div>
           </div>
