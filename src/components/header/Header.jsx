@@ -1,5 +1,6 @@
 import React from "react";
-import Nav from "./Nav";
+import Nav from "./NavMenu";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -75,17 +76,11 @@ const Header = () => {
                   </div>
                   <div className="col d-block d-lg-none">
                     <button type="button" className="vs-menu-toggle">
-                      <i className="far fa-bars"></i> Menu
+                      <FaBars /> Menu
                     </button>
                   </div>
                   <div className="col-auto d-none d-lg-block">
                     <div className="header-button">
-                      <button
-                        type="button"
-                        className="searchBoxToggler simple-icon"
-                      >
-                        <i className="far fa-search"></i>
-                      </button>
                       <a href="#" className="vs-btn d-none d-xl-block">
                         রেজিস্ট্রেশন করুন
                       </a>{" "}

@@ -152,7 +152,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div class="section-after">
+      <div className="section-after">
         <img src={Curved_B} alt="shape" />
       </div>
     </div>

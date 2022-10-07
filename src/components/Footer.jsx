@@ -1,6 +1,6 @@
 import React from "react";
 import FootBG from "../assets/img/bg/bg-footer-3.png";
-import Nav from "./header/Nav";
+import Nav from "./header/NavMenu";
 
 const Footer = () => {
   return (
