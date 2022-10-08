@@ -49,7 +49,7 @@ const index = () => {
                 <div className="vs-card_shape">
                   <img src={CardShape} alt="shape" />
                 </div>
-                <h3 className="vs-card_title">Marketing</h3>
+                <h3 className="vs-card_title">স্মৃতিচারণ</h3>
                 <p className="vs-card_text">
                   Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor ut
                   labore promise
