@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./NavMenu";
-import { FaTimes, FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -60,11 +61,11 @@ const Header = () => {
             <div className="row gx-35 align-items-center">
               <div className="col-auto">
                 <div className="header-logo">
-                  <a href="index.html">
+                  <NavLink to="/">
                     SSC Batch 2012
                     {/* <!-- <img src="assets/img/logo.png"
                                         alt="Evona"> --> */}
-                  </a>
+                  </NavLink>
                 </div>
               </div>
               <div className="col">
