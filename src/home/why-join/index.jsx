@@ -32,10 +32,9 @@ const index = () => {
                 <div className="vs-card_shape">
                   <img src={CardShape} alt="shape" />
                 </div>
-                <h3 className="vs-card_title">Bulding</h3>
+                <h3 className="vs-card_title">সাক্ষাৎ</h3>
                 <p className="vs-card_text">
-                  Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor ut
-                  labore promise
+                  দীর্ঘ ১২ বছর পরে একে অপরের সাথে সাক্ষাৎ হওয়া।
                 </p>
               </div>
               <div className="vs-card_icon shadow">
@@ -51,8 +50,7 @@ const index = () => {
                 </div>
                 <h3 className="vs-card_title">স্মৃতিচারণ</h3>
                 <p className="vs-card_text">
-                  Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor ut
-                  labore promise
+                  স্কুল এর পুরাতন স্মৃতি অটোমেটিক সবার মনের মধ্যে উদয় হবে।
                 </p>
               </div>
               <div className="vs-card_icon shadow">
@@ -66,10 +64,10 @@ const index = () => {
                 <div className="vs-card_shape">
                   <img src={CardShape} alt="shape" />
                 </div>
-                <h3 className="vs-card_title">Planning</h3>
+                <h3 className="vs-card_title">জ্ঞাত হত্তয়া</h3>
                 <p className="vs-card_text">
-                  Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor ut
-                  labore promise
+                  অনেক দিন সবার সাথে দেখা হওয়ার মাধমে সবাই সবার সম্পর্কে জানতে
+                  পারবে।
                 </p>
               </div>
               <div className="vs-card_icon shadow">
@@ -83,10 +81,10 @@ const index = () => {
                 <div className="vs-card_shape">
                   <img src={CardShape} alt="shape" />
                 </div>
-                <h3 className="vs-card_title">Monetizing</h3>
+                <h3 className="vs-card_title">পরিচিত থাকা</h3>
                 <p className="vs-card_text">
-                  Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor ut
-                  labore promise
+                  অনেকের সাথে যোগাযোগ বিছিন্ন রয়েছে, আশা করি সেটা আবারও অক্ষুণ্ণ
+                  থাকবে।
                 </p>
               </div>
               <div className="vs-card_icon shadow">
