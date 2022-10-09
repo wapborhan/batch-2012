@@ -7,7 +7,7 @@ const Nav = () => {
     <ul>
       {menu.map((item) => {
         return (
-          <li className="menu-item-has-children">
+          <li className="menu-item-has-children" key={item.id}>
             <NavLink to={item.path}>{item.title}</NavLink>
           </li>
         );

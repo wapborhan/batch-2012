@@ -9,6 +9,7 @@
     "bootstrap": "^5.2.2",
     "react": "^18.2.0",
     "react-countdown-customizable": "^0.1.3",
+    "react-custom-back-to-top-button": "^1.0.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.1",

@@ -56,7 +56,7 @@ const Footer = () => {
       </div> */}
       <div className="footer-copyright">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row align-items-center mx-5">
             <div className="col-lg-6">
               <p className="copyright">
                 সাইট ডিজাইন করেছেন{" "}

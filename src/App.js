@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { About } from "./pages";
 import NotFound from "./components/NotFound";
 import { Routes, Route, Link } from "react-router-dom";
+import BacktoTop from "./components/BackToTop";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" exact element={<About />} />
         <Route path="*" exact element={<NotFound />} />
       </Routes>
+      <BacktoTop />
       <Footer />
     </Fragment>
   );
