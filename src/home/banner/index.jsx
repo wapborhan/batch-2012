@@ -5,7 +5,7 @@ import Curved_B from "../../assets/img/shape/curved-shape-bottom.png";
 
 const Index = () => {
   const [countdownDate, setCountdownDate] = useState(
-    new Date("02/29/2024").getTime()
+    new Date("04/14/2024").getTime()
   );
   const [state, setState] = useState({
     days: 0,
@@ -14,11 +14,13 @@ const Index = () => {
     seconds: 0,
   });
 
+  let setNewTime;
+
   useEffect(() => {
     setInterval(() => setNewTime(), 1000);
-  }, []);
+  }, [setNewTime]);
 
-  const setNewTime = () => {
+  setNewTime = () => {
     if (countdownDate) {
       const currentTime = new Date().getTime();
 
@@ -130,7 +132,7 @@ const Index = () => {
               data-ani-delay="0.6s"
             >
               <span>
-                <i className="fas fa-circle"></i> ২৯ ফেব্রুয়ারি, ২০২৪
+                <i className="fas fa-circle"></i> ১৪ এপ্রিল, ২০২৪
               </span>{" "}
               <span>
                 <i className="fas fa-circle"></i>
